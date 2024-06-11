@@ -55,7 +55,7 @@ h6 {
 
 p {
     font-size: 0.9em;
-    color: #341c1c;
+    color: #1f0318;
     line-height: 1.9em;
     letter-spacing: 1px;
 }
@@ -100,8 +100,8 @@ nav {
     font-size: 0.8em;
     font-weight: 800;
     text-transform: capitalize;
-    color: #ffffff;
-    text-shadow: 0 1px 2px rgba(3, 0, 0, 0.37);
+    color: #fbf1f1;
+    text-shadow: 0 1px 2px rgba(241, 240, 240, 0.37);
     font-family: 'Oswald', sans-serif;
 
 }
@@ -228,7 +228,7 @@ li>a:only-child:after {
     }
 
     nav a {
-        color: #333;
+        color: #1f0318;
     }
 
     /* Hide the navigation menu by default */
@@ -246,8 +246,8 @@ li>a:only-child:after {
         border: none;
         float: right;
         margin-right: 0em;
-        background-color: #fff;
-        color: #0dd5d5;
+        background-color: #e5f2c9;
+        color: #1f0318;
         text-transform: capitalize;
         font-weight: 400;
         cursor: pointer !important;
@@ -265,14 +265,14 @@ li>a:only-child:after {
     }
 
     .toggle:hover {
-        color: #040000;
-        background-color: #fff;
+        color: #1f0318;
+        background-color: #e5f2c9;
     }
 
     /* Display Dropdown when clicked on Parent Lable */
     [id^=drop]:checked+ul {
         display: block;
-        background: #fff;
+        background: #e5f2c9;
         padding: 15px 0;
         text-align: center;
         width: 80%;
@@ -292,7 +292,7 @@ li>a:only-child:after {
     }
 
     nav ul.menu li a {
-        color: #040202;
+        color: #1f0318;
     }
 
     nav a:hover,
@@ -304,14 +304,14 @@ li>a:only-child:after {
     nav ul ul a,
     nav ul ul ul a {
         padding: 14px 20px;
-        color: #312f2f;
+        color: #1f0318;
         font-size: 15px;
     }
 
 
     nav ul li ul li .toggle,
     nav ul ul a {
-        background-color: #fff;
+        background-color: #e5f2c9;
     }
 
     nav ul ul li a {
@@ -322,7 +322,7 @@ li>a:only-child:after {
     nav ul ul {
         float: none;
         position: static;
-        color: #ffffff;
+        color: #e5f2c9;
     }
 
     /* Hide menus on hover */
@@ -359,7 +359,7 @@ li>a:only-child:after {
 @media all and (max-width:568px) {
     [id^=drop]:checked+ul {
         display: block;
-        background: #fff;
+        background: #e5f2c9;
         padding: 15px 0;
         text-align: center;
         width: 100%;
@@ -415,8 +415,8 @@ li>a:only-child:after {
 .banner-info-layouts h3 {
     font-size: 2.5em;
     font-weight: 400;
-    color: #fff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.954);
+    color: #1f0318;
+    text-shadow: 0 1px 2px#1f0318;
     text-transform: capitalize;
     letter-spacing: 5px;
 }
@@ -426,7 +426,7 @@ li>a:only-child:after {
     font-weight: 400;
     letter-spacing: 1px;
     display: block;
-    color: #fcfcfb;
+    color: #1f0318;
     font-family: 'Pacifico', cursive;
 }
 
@@ -457,14 +457,14 @@ a.read-more {
 
 .middle ul.social li a {
     font-size: 13px;
-    color: #fff;
+    color: #1f0318;
     display: block;
     text-align: center;
 }
 
 .middle-right h6 {
     font-size: 1.1em;
-    color: lightskyblue;
+    color: l#1f0318;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -474,7 +474,7 @@ a.read-more {
 /*-- //heading --*/
 
 #about {
-    background: #e0d9d9;
+    background: #e5f2c9;
 }
 
 .content-left-bottom h4 {
@@ -482,7 +482,7 @@ a.read-more {
     letter-spacing: 6px;
     line-height: 1.5em;
     margin: 1em 0;
-    color: hsl(0, 3%, 15%);
+    color: #1f0318;
     font-weight: 700;
 }
 
@@ -498,7 +498,7 @@ a.read-more {
 
 .ab-info h4 {
     font-size: 1em;
-    color: #ffc80a;
+    color: #e5f2c9;
     margin: 2em 0 0em 0;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -512,13 +512,13 @@ a.read-more {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all;
-    background: rgb(236, 237, 239);
+    background: #e5f2c9;
     padding: 8px;
 }
 
 .ab-info p {
     text-align: center;
-    color: #fff;
+    color: #e5f2c9;
     font-size: 1em;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
@@ -530,7 +530,7 @@ a.read-more {
     -o-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 2px 1px #1f0318;
     transition: all 500ms ease;
     width: 68%;
 }
@@ -543,7 +543,7 @@ a.read-more {
     font-size: 1.1em;
     letter-spacing: 0px;
     font-weight: 700;
-    color: #555;
+    color: #1f0318;
     line-height: 1.7em;
 }
 
@@ -557,7 +557,7 @@ a.read-more {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: #1f0318;
     transition: opacity 0ms;
     visibility: hidden;
     opacity: 0;
@@ -570,7 +570,7 @@ a.read-more {
 }
 
 .popup {
-    background: #fff;
+    background: #1f0318;
     border-radius: 5px;
     width: 30%;
     position: relative;
@@ -580,14 +580,14 @@ a.read-more {
 
 .popup p {
     font-size: 15px;
-    color: #fdf9f9;
+    color: #1f0318;
     letter-spacing: .5px;
     line-height: 30px;
 }
 
 .popup h2 {
     margin-top: 0;
-    color: #fff;
+    color: #1f0318;
 
 }
 
@@ -599,11 +599,11 @@ a.read-more {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: #1f0318;
 }
 
 .popup .close:hover {
-    color: #30c39e;
+    color: #1f0318;
 }
 
 
@@ -612,25 +612,25 @@ a.read-more {
 /*-- //banner --*/
 
 .services {
-    background: #c20d00;
+    background: #1f0318;
 }
 
 h3.tittle,
 h3.tittle.two {
     font-size: 2.3em;
     font-weight: 400;
-    color: #33353a;
+    color: #1f0318;
     text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
     text-transform: capitalize;
 }
 
 h3.tittle.two {
-    color: #fff;
+    color: #e5f2c9
 }
 
 .sub-tittle {
     font-size: 0.35em;
-    color: #ffa801;
+    color: #1f0318;
     letter-spacing: 1px;
     display: block;
     text-transform: uppercase;
@@ -886,8 +886,8 @@ span.title {
     background: none;
     padding: 13px 30px;
     display: inline-block;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #1f0318;
+    border: 2px solid#1f0318;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -895,7 +895,7 @@ span.title {
 
 /*-- //middle-section --*/
 .about-right p {
-    color: #fff;
+    color: #1f0318;
 }
 
 .about-text-grid h3,
@@ -934,9 +934,9 @@ section#gallery {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #1e272e;
-    text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
-    background: #ffffff;
+    color: #1f0318;
+    text-shadow: 0 0 0.5px#1f0318;
+    background: #1f0318;
     display: block;
     padding: 1em;
     margin-bottom: 15px;
@@ -1084,12 +1084,12 @@ h6.b-ltxt span {
 }
 
 hr {
-    border-top: 1px solid rgba(251, 247, 247, 0.1);
+    border-top: 1px solid #1f0318
 }
 
 .layer.footer-1 {
     min-height: 28em;
-    background: rgba(0, 0, 0, 0.82);
+    background: #000000;
 }
 
 .footer-top-inner-world {
@@ -1101,7 +1101,7 @@ hr {
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 400;
-    color: #6699ff;
+    color: #1f0318;
 }
 
 /* footer grids */
@@ -1111,26 +1111,26 @@ ul.list-info-hello {
 }
 
 h4.footer-title {
-    color: #777;
+    color: #1f0318;
     text-transform: capitalize;
 }
 
 .footerv3-top p {
     font-size: 1em;
-    color: #a3b1bf;
+    color: #1f0318;
     margin: 1em 0;
     line-height: 1.5em;
 }
 
 .footer p a {
-    color: #fff;
+    color: #1f0318;
     text-decoration: underline;
 }
 
 .last-world-contact p {
     display: inline-block;
     vertical-align: middle;
-    color: #fff;
+    color: #1f0318;
     font-size: 0.85em;
     letter-spacing: 1px;
     margin: 0;
@@ -1138,15 +1138,15 @@ h4.footer-title {
 
 .footer-top p {
     padding-right: 6em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .last-world-contact p a:hover {
-    color: #15b915;
+    color: #fffeff;
 }
 
 .list-info-hello li a {
-    color: #fff;
+    color: #ffffff;
     font-size: 0.85em;
     letter-spacing: 1px;
 }
@@ -1157,14 +1157,14 @@ h4.footer-title {
 
 h3.hello_title {
     font-size: 1.2em;
-    color: #fff;
+    color: #ffffff;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .last-world-contact a {
-    color: #fff;
+    color: into #1f0318 
 }
 
 .world-icons li {
@@ -1173,18 +1173,18 @@ h3.hello_title {
 }
 
 .world-icons li a span {
-    color: #fff;
+    color: #f1ebf0;
 }
 
 .world-icons li a span:hover {
-    color: #ffc80a;
+    color: #f7edf5;
 }
 
 /* //footer */
 .footer-text input[type="email"] {
     outline: none;
     padding: 12px 15px;
-    color: #fff;
+    color: #ffffff;
     font-size: 13px;
     width: 85%;
     border: none;
@@ -1198,7 +1198,7 @@ h3.hello_title {
 }
 
 button.btn1 {
-    color: #808080;
+    color: #1f0318;
     border: none;
     padding: 10px 0;
     outline: none;
@@ -1216,24 +1216,24 @@ button.btn1 {
 }
 
 .footer-text form {
-    border: 1px solid #808080;
+    border: 1px solid #ffffff;
     width: 100%;
     margin-top: 20px;
 }
 
 .footer-text p {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* copyright */
 
 p.copy-right-grids {
     letter-spacing: 2px;
-    color: #fff;
+    color: #1f0318;
 }
 
 p.copy-right-grids a {
-    color: #fff;
+    color: #1f0318;
 }
 
 /* //copyright */
@@ -1243,12 +1243,12 @@ a.move-top {
 }
 
 a.move-top span {
-    color: #fff;
+    color: #1f0318;
     width: 36px;
     height: 36px;
     border: transparent;
     line-height: 2em;
-    background: #626c733b;
+    background: #1f0318;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
@@ -1687,14 +1687,14 @@ a.move-top span {
   
   /*  Button Styles (Add hover effects) */
   a.read-more:hover {
-    background-color: #004499; /* Darker shade of blue */
+    background-color: #1f0318; /* Darker shade of blue */
     transform: translateY(-2px); /* Slight lift on hover */
     box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.3);
   }
   
   button.btn1:hover {
-    color: #fff; /* Change text color on hover */
-    background-color: #0064bd; /* Apply background color on hover */
+    color: #1f0318; /* Change text color on hover */
+    background-color: #eee2eb; /* Apply background color on hover */
     transform: scale(1.05); /* Slight zoom on hover */
   }
   
@@ -1750,7 +1750,7 @@ a.move-top span {
   /* 2. Gradient Text (Enhanced) */
   .banner-info-layouts h3 {
     /* ... your existing styles ... */
-    background: linear-gradient(to right, #ffffff, #ffffff); /* Apply gradient background */
+    background: linear-gradient(to right, #000000, #080505); /* Apply gradient background */
     -webkit-background-clip: text; /* Clip the background to the text */
     -webkit-text-fill-color: transparent; /* Make the text transparent */
     background-clip: text; /* Clip the background to the text */
@@ -1768,7 +1768,7 @@ a.move-top span {
   }
   
   nav ul li a:hover {
-    background-color: #82bef3; /* Change the background color on hover */
+    background-color: #1f0318; /* Change the background color on hover */
     color: #f5f5e1; /* Change text color on hover (light beige) */
     transform: scale(1.05); /* Add a slight zoom on hover */
   }
@@ -1780,7 +1780,7 @@ a.move-top span {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #82bef3; /* Change the background color on hover */
+    background-color: #1f0318; /* Change the background color on hover */
     z-index: -1; /* Place it behind the link */
     opacity: 0;
     transition: opacity 0.3s ease; /* Add a transition for opacity */
@@ -1824,7 +1824,7 @@ a.move-top span {
     z-index: 1;
     padding: 50px;
     text-align: center;
-    color: #f5f5e1; /* Light beige text */
+    color: #e5f2c9; /* Light beige text */
   }
   
   /* 5.  Skew Effect for Gallery Images (Enhanced) */
@@ -1836,26 +1836,26 @@ a.move-top span {
   
   .gal-img:hover img {
     transform: skew(0deg, 0deg); /* Reset the skew on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    box-shadow: 0 10px 20px rgb(0, 0, 0); /* Add a subtle shadow */
   }
   
   /* 6.  Text Shadow for Headlines (Improved) */
   h1, h2, h3, h4, h5, h6 {
     /* ... your existing styles ... */
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+    text-shadow: 0 2px 4px rgb(0, 0, 0); /* Add a subtle text shadow */
   }
   
   /* 7.  Rounded Corners for Buttons (Improved) */
   a.read-more, button.btn1 {
     /* ... your existing styles ... */
     border-radius: 30px; /* Add rounded corners to buttons */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle button shadow */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Add a subtle button shadow */
   }
   
   /* 8.  Border-Bottom Shadow for Navigation Links (Improved) */
   nav ul li a {
     /* ... your existing styles ... */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a border-bottom shadow */
+    box-shadow: 0 2px 4px #1f0318; /* Add a border-bottom shadow */
     /* ... your existing styles ... */
   }
   
@@ -1873,93 +1873,93 @@ a.move-top span {
   /* 10.  Background Colors and Color Scheme */
   body {
     /* ... your existing styles ... */
-    background-color: #f5f5e1; /* Light beige background */
-    color: #333333; /* Dark gray text */
+    background-color: #e5f2c9; /* Light beige background */
+    color: #1f0318; /* Dark gray text */
   }
   
   .main-content {
     /* ... your existing styles ... */
-    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent dark overlay */
+    background-color: #e5f2c9; /* Slightly transparent dark overlay */
   }
   
   .banner-info-layouts h3 {
     /* ... your existing styles ... */
-    color: #f5f5e1; /* Light beige text for contrast */
+    color: #1f0318;; /* Light beige text for contrast */
   }
   
   /* 11.  Section Colors (Use a contrasting color scheme) */
   #about {
-    background-color: #e0dcc8; /* Medium beige */
+    background-color: #e5f2c9; /* Medium beige */
   }
   
   #services {
-    background-color: #82bef3; /* Change the background color on hover */
+    background-color: #e5f2c9; /* Change the background color on hover */
 
-    color: #f5f5e1; /* Light beige text */
+    color: #1f0318; /* Light beige text */
   }
   
   #gallery {
-    background-color: #f5f5e1; 
+    background-color: #e5f2c9; 
   }
   
   #testimonials {
-    background-color: #82bef3; /* Change the background color on hover */
+    background-color: #e5f2c9; /* Change the background color on hover */
 
-    color: #f5f5e1; /* Light beige text */
+    color: #1f0318; /* Light beige text */
   }
   
   #team {
-    background-color: #e0dcc8; /* Medium beige */
+    background-color: #e5f2c9; /* Medium beige */
   }
   
   #bottom {
-    background-color: #000000f3; /* Change the background color on hover */
+    background-color: #e5f2c9; /* Change the background color on hover */
 
-    color: #f5f5e1; /* Light beige text */
+    color: #1f0318; /* Light beige text */
   }
   
   #contact {
-    background-color: #f5f5e1; 
+    background-color: #e5f2c9; 
   }
   
   /* 12.  Footer Color */
   .footer-content {
-    background-color: #0064bd; /*  Dark Blue background */
-    color: #f5f5e1; /* Light beige text */
+    background-color: #e5f2c9; /*  Dark Blue background */
+    color: #1f0318; /* Light beige text */
   }
   
   /* Additional Styling with Beige and Dark Gray */
   
   .middle ul.social li a {
-    color: #f5f5e1; /* Light beige for social icons */
+    color: #ffffff; /* Light beige for social icons */
   }
   
   .middle-right h6 {
-    color: #f5f5e1; /* Light beige for phone number */
+    color: #ffffff; /* Light beige for phone number */
   }
   
   .stats h3.heading {
-    color: #f5f5e1; /* Light beige for stats heading */
+    color: #fffffF; /* Light beige for stats heading */
   }
   
   .stats p {
-    color: #e0dcc8; /* Medium beige for stats paragraph */
+    color: #ffffff; /* Medium beige for stats paragraph */
   }
   
   .stats-left h4 {
-    color: #f5f5e1; /* Light beige for stats title */
+    color: #ffffff; /* Light beige for stats title */
   }
   
   .stats-right h4 {
-    color: #f5f5e1; /* Light beige for stats numbers */
+    color: #ffffff; /* Light beige for stats numbers */
   }
   
   .stats-right span.fa {
-    background: #e0dcc8; /* Medium beige for stats icons */
+    background: #ffffff; /* Medium beige for stats icons */
   }
   
   .team-grids h4 {
-    color: #f5f5e1; /* Light beige for team member names */
+    color: #ffffff; /* Light beige for team member names */
   }
   
   .team-grids h6 {
@@ -1967,39 +1967,39 @@ a.move-top span {
   }
   
   .about-text-grid a {
-    background-color: #0064bd; /* Dark blue for button */
-    color: #f5f5e1; /* Light beige text for button */
+    background-color: #3571cb; /* Dark blue for button */
+    color: #fcf6fb; /* Light beige text for button */
   }
   
   .contact_grid_right input[type="text"],
   .contact_grid_right input[type="email"],
   .contact_grid_right textarea {
-    color: #333333; /* Dark gray for input fields */
+    color: #e5f2c9; /* Dark gray for input fields */
   }
   
   .contact_left_grid button.btn {
     background-color: #0064bd; /* Dark blue for submit button */
-    color: #f5f5e1; /* Light beige text for submit button */
+    color: #e5f2c9; /* Light beige text for submit button */
   }
   
   .footer-content h2 a {
-    color: #f5f5e1; /* Light beige for footer title */
+    color: #ffffff; /* Light beige for footer title */
   }
   
   .footer-top p {
-    color: #f5f5e1; /* Light beige for footer text */
+    color: #ffffff; /* Light beige for footer text */
   }
   
   .last-world-contact p {
-    color: #f5f5e1; /* Light beige for footer contact info */
+    color: #ffffff; /* Light beige for footer contact info */
   }
   
   .footer-text input[type="email"] {
-    color: #f5f5e1; /* Light beige for email input field */
+    color: #ffffff; /* Light beige for email input field */
   }
   
   .footer-text p {
-    color: #f5f5e1; /* Light beige for footer newsletter text */
+    color: #ffffff; /* Light beige for footer newsletter text */
   }
   
   .copy-right-grids {
